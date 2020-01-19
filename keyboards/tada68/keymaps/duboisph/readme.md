@@ -1,3 +1,8 @@
-# default TADA68 layout
+# duboisph's TADA68 layout
 
-This layout replicates the default factory layout of the TADA68.
+My personal TADA68 layout. Build via Docker:
+
+```bash
+make git-submodules
+util/docker_build.sh tada68:duboisph:flashbin
+```
